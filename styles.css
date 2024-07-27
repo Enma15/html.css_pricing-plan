@@ -1,0 +1,86 @@
+ul {
+  list-style: none;
+  padding: 0%;
+}
+
+.plan-title {
+  font-size: 1.3rem;
+  padding-top: 7px;
+}
+
+.plan-price {
+  font-size: 1.7rem;
+}
+
+.plan-title,
+.plan-price {
+  font-weight: 600;
+}
+
+.plan-card {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 4%;
+  flex-basis: 250px;
+}
+
+.pricing-plan {
+  display: flex;
+  margin-top: 6.25%;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+button {
+  padding: 0.3rem 1.3rem;
+  border-radius: 11%;
+  background-color: lightblue;
+  border: 0;
+  color: white;
+}
+
+.different {
+  background-color: white;
+  color: lightblue;
+  border: 1px solid;
+}
+
+.premium-title {
+  background-color: lightblue;
+  color: white;
+  border-radius: 4%;
+}
+
+@media (max-width: 580px) {
+  .pricing-plan {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+table {
+  table-layout: auto;
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+th,
+td {
+  text-align: center;
+  border-top: 1px solid lightblue;
+}
+
+.row-head {
+  text-align: left;
+}
+
+.bottom {
+  border-bottom: 1px solid lightblue;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
